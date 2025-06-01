@@ -5,6 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.moviebox.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -45,5 +46,8 @@ class MainActivity : AppCompatActivity() {
 
         movieList=arrayListOf(redemption,theGodFather,theDarkKnight,theGodFather2,angryMen,returnOfTheKing,schindler,pulpFiction,yuzuk,ii)
 
+        val adapter= MovieAdapter(movieList)
+        binding.movieRecyclerView.layoutManager= LinearLayoutManager(this)
+        binding.movieRecyclerView.adapter=adapter
     }
 }
