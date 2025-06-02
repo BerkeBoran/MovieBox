@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MovieBox</string>
+
+
+
+    <!-- Movie Description -->
+    <string name="the_shawshank_redemption_description">A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.</string>
+    <string name="the_godfather_description">The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</string>
+    <string name="the_dark_knight_description">When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.</string>
+    <string name="the_godfather_2_description">The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.</string>
+    <string name="twelve_angry_man_description">The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.</string>
+    <string name="return_of_the_kings_description">Gandalf and Aragorn lead the World of Men against Saurons army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</string>
+    <string name="schindler_description">In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.</string>
+    <string name="pulp_fiction_description">The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</string>
+    <string name="the_lord_of_the_rings_description">A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</string>
+    <string name="il_buono_il_brutto_il_cattivo_description">A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.</string>
+
+
 </resources>
