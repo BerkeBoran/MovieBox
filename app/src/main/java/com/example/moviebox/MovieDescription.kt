@@ -24,10 +24,10 @@ class MovieDescription : AppCompatActivity() {
         }
         val selectedMovie= intent.getSerializableExtra("selectedMovie") as Movie
 
-        binding.imageView.setImageResource(selectedMovie.movieImage)
-        binding.textView2.text="Movie Name: \n${selectedMovie.movieTitle}"
-        binding.textView3.text="Movie Rating: \n${selectedMovie.movieRating}"
-        binding.textView4.text="Movie Release Year: \n${selectedMovie.movieReleaseYear}"
-        binding.textView5.text="Movie Description: \n${selectedMovie.movieDescription}"
+        binding.descIvMovieImage.setImageResource(selectedMovie.movieImage)
+        binding.descTvMovieName.text="Movie Name: \n${selectedMovie.movieTitle}"
+        binding.descTvMovieRating.text="Movie Rating: \n${selectedMovie.movieRating}"
+        binding.descTvMovieReleaseYear.text="Movie Release Year: \n${selectedMovie.movieReleaseYear}"
+        binding.descTvMovieDescription.text="Movie Description: \n${selectedMovie.movieDescription}"
     }
 }

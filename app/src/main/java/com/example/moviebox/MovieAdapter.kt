@@ -23,9 +23,9 @@ class MovieAdapter(val movieList : ArrayList<Movie>): RecyclerView.Adapter<Movie
         position: Int,
     ) {
         val currentMovie = movieList[position]
-        holder.binding.textView.text=currentMovie.movieTitle
-        holder.binding.textView2.text="Rating: ${currentMovie.movieRating}"
-        holder.binding.imageView2.setImageResource(currentMovie.movieImage)
+        holder.binding.rowTvMovieName.text=currentMovie.movieTitle
+        holder.binding.rowTvMovieRating.text="Rating: ${currentMovie.movieRating}"
+        holder.binding.rowIvMovieImage.setImageResource(currentMovie.movieImage)
 
 
         holder.itemView.setOnClickListener {
